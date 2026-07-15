@@ -52,11 +52,11 @@ export function Navbar() {
       >
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
           <Link href="/" className="group">
-  <img
-    src="/logo.png"
-    alt="Bright Ideas"
-    className="h-16 md:h-20 w-auto transition-transform duration-300 group-hover:scale-105"
-  />
+ <img
+  src="/logo.png"
+  alt="Bright Ideas"
+  className="h-12 md:h-14 w-auto transition-transform duration-300 group-hover:scale-105"
+/>
 </Link>
 
           {/* Desktop Nav */}

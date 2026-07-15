@@ -10,12 +10,13 @@ export function Footer() {
           
           {/* Brand Col */}
           <div className="flex flex-col gap-6">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-display font-bold text-xl">B</span>
-              </div>
-              <span className="font-display font-bold text-2xl text-white">Bright Ideas</span>
-            </Link>
+           <Link href="/" className="inline-block group">
+  <img
+    src="/logo-white.png"
+    alt="Bright Ideas"
+    className="h-16 w-auto transition-transform duration-300 group-hover:scale-105"
+  />
+</Link>
             <p className="text-sm leading-relaxed">
               {companyData.description}
             </p>
