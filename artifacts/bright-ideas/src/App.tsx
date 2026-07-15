@@ -17,9 +17,33 @@ import NotFound from '@/pages/not-found';
 
 const queryClient = new QueryClient();
 
+// function Router() {
+//   return (
+//     <Layout>
+//       <Switch>
+//         <Route path="/" component={Home} />
+//         <Route path="/about" component={About} />
+//         <Route path="/services" component={Services} />
+//         <Route path="/portfolio" component={Portfolio} />
+//         <Route path="/gallery" component={Gallery} />
+//         <Route path="/contact" component={Contact} />
+//         <Route path="/clients" component={Clients} />
+//         <Route path="/testimonials" component={Testimonials} />
+//         <Route path="/faq" component={Faq} />
+//         <Route path="/privacy-policy" component={Privacy} />
+//         <Route path="/terms" component={Terms} />
+//         <Route component={NotFound} />
+//       </Switch>
+//     </Layout>
+//   );
+// }
+import { useLocation } from "wouter";
+
 function Router() {
+  const [location] = useLocation();
+
   return (
-    <Layout>
+    <Layout key={location}>
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />

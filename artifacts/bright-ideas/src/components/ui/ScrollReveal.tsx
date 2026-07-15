@@ -36,12 +36,27 @@ export function ScrollReveal({
 
   return (
     <div style={{ width }} className={`relative overflow-hidden ${className}`}>
-      <motion.div
-        variants={direction === 'none' ? {} : variants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-50px' }}
-      >
+   <motion.div
+    initial={{
+        opacity: 0,
+        y: direction === "up" ? 40 : direction === "down" ? -40 : 0,
+        x: direction === "left" ? 40 : direction === "right" ? -40 : 0,
+    }}
+    whileInView={{
+        opacity: 1,
+        x: 0,
+        y: 0,
+    }}
+    viewport={{
+        once: true,
+        amount: 0.15,
+    }}
+    transition={{
+        duration: 0.7,
+        ease: [0.22, 1, 0.36, 1],
+        delay,
+    }}
+>
         {children}
       </motion.div>
     </div>
