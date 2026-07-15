@@ -51,15 +51,13 @@ export function Navbar() {
         }`}
       >
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center group-hover:bg-accent transition-colors">
-              <span className="text-white font-display font-bold text-xl">B</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-bold text-xl leading-none text-foreground">Bright Ideas</span>
-              <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mt-1">Branding & Printing</span>
-            </div>
-          </Link>
+          <Link href="/" className="group">
+  <img
+    src="/logo.png"
+    alt="Bright Ideas"
+    className="h-16 md:h-20 w-auto transition-transform duration-300 group-hover:scale-105"
+  />
+</Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
