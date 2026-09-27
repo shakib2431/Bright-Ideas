@@ -1,0 +1,476 @@
+You are an award-winning UI/UX Designer, Senior Frontend Engineer, Creative Director, and Branding Expert.
+
+Your task is to build a COMPLETE, PREMIUM, PRODUCTION-READY corporate portfolio website for the following company.
+
+==========================================================
+COMPANY DETAILS
+==========================================================
+
+Company Name:
+Bright Ideas
+
+Industry:
+Advertising, Branding & Printing Solutions
+
+Location:
+Rourkela, Odisha, India
+
+Business Since:
+2011
+
+Tagline:
+Transforming Ideas Into Powerful Brand Experiences
+
+Business Overview:
+Bright Ideas is a leading branding, advertising, signage, digital printing, offset printing, corporate gifting, promotional products, vehicle branding, and visual communication company based in Rourkela, Odisha. The company helps businesses build strong brand identities through creative design, premium printing, signage, event branding, marketing materials, and customized branding solutions.
+
+Generate professional content wherever information is unavailable. The website should sound authentic and corporate.
+
+==========================================================
+GOAL
+==========================================================
+
+Build a premium company portfolio website that establishes trust, showcases the company's expertise, highlights completed work, displays services, encourages enquiries, and reflects a modern, professional brand.
+
+The design should be significantly better than a typical company website and should look like it was designed by a premium digital agency.
+
+==========================================================
+DESIGN STYLE
+==========================================================
+
+Use a clean, elegant, premium, corporate style.
+
+The design inspiration should be similar to:
+
+• Apple
+• Stripe
+• Linear
+• Framer
+• Webflow
+• Vercel
+
+Design Characteristics:
+
+• Premium
+• Luxury
+• Modern
+• Elegant
+• Minimal
+• Corporate
+• Spacious
+• Professional
+• High-end
+• Pixel Perfect
+• Smooth Animations
+• Excellent Typography
+• Rounded Corners
+• Beautiful Cards
+• Glassmorphism (Subtle)
+• Soft Shadows
+• Beautiful Hover Effects
+
+==========================================================
+COLOR PALETTE
+==========================================================
+
+Primary:
+Deep Blue
+
+Secondary:
+White
+
+Accent:
+Orange
+
+Neutral:
+Light Gray
+
+Generate a premium palette based on these colors.
+
+==========================================================
+TECH STACK
+==========================================================
+
+Use:
+
+• React
+• TypeScript
+• Vite
+• Tailwind CSS
+• Framer Motion
+• Lucide React
+
+No Backend.
+
+No Database.
+
+No Authentication.
+
+No Login.
+
+No Dashboard.
+
+Everything should work completely on the frontend.
+
+==========================================================
+WEBSITE PAGES
+==========================================================
+
+Create the following pages:
+
+• Home
+• About
+• Services
+• Portfolio
+• Gallery
+• Clients
+• Testimonials
+• FAQ
+• Contact
+• Privacy Policy
+• Terms & Conditions
+• 404 Page
+
+==========================================================
+HOME PAGE
+==========================================================
+
+Include:
+
+Premium Hero Section
+
+Animated Headline
+
+Company Introduction
+
+Why Choose Us
+
+Services Overview
+
+Industries Served
+
+Company Statistics
+
+Featured Projects
+
+Recent Work
+
+Our Process
+
+Client Logos
+
+Testimonials
+
+Gallery Preview
+
+Call To Action
+
+Footer
+
+==========================================================
+ABOUT PAGE
+==========================================================
+
+Include:
+
+Company Story
+
+Mission
+
+Vision
+
+Core Values
+
+Company Journey
+
+Infrastructure
+
+Our Team
+
+Business Philosophy
+
+Why Bright Ideas
+
+==========================================================
+SERVICES
+==========================================================
+
+Include professionally designed cards for:
+
+Flex Printing
+
+Digital Printing
+
+Offset Printing
+
+Branding
+
+Corporate Branding
+
+Graphic Design
+
+Corporate Gifts
+
+Promotional Products
+
+LED Signage
+
+ACP Signage
+
+Acrylic Letters
+
+Vehicle Branding
+
+Wall Graphics
+
+Window Graphics
+
+Office Branding
+
+Retail Branding
+
+Event Branding
+
+Business Cards
+
+Brochures
+
+Catalogues
+
+Packaging
+
+Marketing Materials
+
+Each service should contain:
+
+Overview
+
+Benefits
+
+Gallery
+
+Call To Action
+
+==========================================================
+PORTFOLIO
+==========================================================
+
+Create a beautiful portfolio section with categories.
+
+Every project card should include:
+
+Project Image
+
+Project Name
+
+Industry
+
+Short Description
+
+Gallery
+
+==========================================================
+CLIENTS
+==========================================================
+
+Create a premium client logo section with scrolling animation.
+
+==========================================================
+TESTIMONIALS
+==========================================================
+
+Beautiful testimonial cards.
+
+Generate realistic corporate testimonials.
+
+==========================================================
+GALLERY
+==========================================================
+
+Include sections for:
+
+Printing
+
+Branding
+
+Signage
+
+Corporate Gifts
+
+Office
+
+Machines
+
+Completed Projects
+
+Events
+
+==========================================================
+FAQ
+==========================================================
+
+Generate professional FAQs related to the business.
+
+==========================================================
+CONTACT
+==========================================================
+
+Include:
+
+Contact Form
+
+Google Maps Embed
+
+Address
+
+Phone Number
+
+Email
+
+Business Hours
+
+WhatsApp Button
+
+Social Media Icons
+
+==========================================================
+FOOTER
+==========================================================
+
+Include:
+
+Company
+
+Services
+
+Quick Links
+
+Contact Information
+
+Newsletter
+
+Social Media
+
+Copyright
+
+==========================================================
+UI FEATURES
+==========================================================
+
+Sticky Navigation
+
+Mobile Navigation
+
+Smooth Scrolling
+
+Scroll Reveal Animations
+
+Framer Motion Animations
+
+Hover Effects
+
+Animated Statistics
+
+Image Hover Effects
+
+Gallery Lightbox
+
+Client Logo Carousel
+
+Testimonial Slider
+
+Back To Top Button
+
+Floating WhatsApp Button
+
+Elegant Page Transitions
+
+Loading Animation
+
+==========================================================
+CONTENT
+==========================================================
+
+Generate professional business content.
+
+Do NOT use Lorem Ipsum.
+
+Generate:
+
+Company Story
+
+Mission
+
+Vision
+
+Values
+
+Service Descriptions
+
+Portfolio Descriptions
+
+Testimonials
+
+FAQs
+
+Call To Actions
+
+Statistics
+
+Everything should sound natural and authentic.
+
+==========================================================
+RESPONSIVENESS
+==========================================================
+
+Perfect responsiveness for:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+==========================================================
+CODE QUALITY
+==========================================================
+
+Write clean, reusable, modular code.
+
+Create reusable components.
+
+Separate data into reusable objects where appropriate.
+
+Use proper folder structure.
+
+Follow React best practices.
+
+==========================================================
+IMPORTANT
+==========================================================
+
+The website must feel premium, modern, fast, elegant, and professional.
+
+Do not create a template-looking website.
+
+Design every section beautifully.
+
+Every button should be functional.
+
+Every navigation link should work.
+
+Forms should include client-side validation.
+
+The website should be fully responsive.
+
+No broken layouts.
+
+No placeholder sections.
+
+No unfinished components.
+
+Generate all pages, components, assets, styling, and configuration necessary for a complete frontend website that is ready to run immediately after installation.
+
+The final result should look like a premium corporate website built by a top digital agency and be ready to push to GitHub and deploy on Vercel.
