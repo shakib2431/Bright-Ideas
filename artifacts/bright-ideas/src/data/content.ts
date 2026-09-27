@@ -1,4 +1,3 @@
-import heroBg from "@assets/generated_images/hero-bg.jpg";
 import aboutOffice from "@assets/generated_images/about-office.jpg";
 import serviceFlex from "@assets/generated_images/service-flex.jpg";
 import serviceBranding from "@assets/generated_images/service-branding.jpg";
@@ -7,6 +6,8 @@ import serviceSignage from "@assets/generated_images/service-signage.jpg";
 import serviceVehicle from "@assets/generated_images/service-vehicle.jpg";
 import project1 from "@assets/generated_images/project-1.jpg";
 import project2 from "@assets/generated_images/project-2.jpg";
+
+const heroBg = "/bright_ideas_hero.png";
 
 export const siteImages = {
   heroBg,
@@ -20,6 +21,67 @@ export const siteImages = {
   project2,
 };
 
+export const projectImages = {
+  acpBoard: [
+    "/projects/acp-board/10.jpg",
+    "/projects/acp-board/11.jpg",
+    "/projects/acp-board/12.jpg",
+    "/projects/acp-board/13.jpg",
+    "/projects/acp-board/14.jpg",
+    "/projects/acp-board/15.jpg",
+    "/projects/acp-board/16.jpg",
+    "/projects/acp-board/17.jpg",
+    "/projects/acp-board/18.jpg",
+    "/projects/acp-board/19.jpg",
+    "/projects/acp-board/2.jpg",
+    "/projects/acp-board/20.jpg",
+    "/projects/acp-board/21.jpg",
+    "/projects/acp-board/22.jpg",
+    "/projects/acp-board/23.jpg",
+    "/projects/acp-board/24.jpg",
+    "/projects/acp-board/25.jpg",
+    "/projects/acp-board/26.jpg",
+    "/projects/acp-board/27.jpg",
+    "/projects/acp-board/28.jpg",
+    "/projects/acp-board/29.jpg",
+    "/projects/acp-board/3.jpg",
+    "/projects/acp-board/30.jpg",
+    "/projects/acp-board/31.jpg",
+    "/projects/acp-board/32.jpg",
+    "/projects/acp-board/33.jpg",
+    "/projects/acp-board/34.jpg",
+    "/projects/acp-board/35.jpg",
+    "/projects/acp-board/4.jpg",
+    "/projects/acp-board/5.jpg",
+    "/projects/acp-board/6.jpg",
+    "/projects/acp-board/7.jpg",
+    "/projects/acp-board/8.jpg",
+    "/projects/acp-board/9.jpg",
+    "/projects/acp-board/ChatGPT-Image-Jul-21-2026-02_57_00-PM.png",
+    "/projects/acp-board/Orissa-Vastra-Bhandar-Model-d.jpg",
+    "/projects/acp-board/Sunny-Cell-Point-Model-copy.jpg",
+    "/projects/acp-board/Unknown.jpg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-03-at-13.11.43-1-.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-08-at-18.01.39.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-15-at-19.01.23-2-.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-15-at-19.01.24.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-15-at-19.01.25.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-15-at-19.01.27.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-15-at-19.01.29.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-16-at-11.36.27.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-08-16-at-11.36.52.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-09-24-at-16.27.45.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-09-24-at-16.28.03.jpeg",
+    "/projects/acp-board/WhatsApp-Image-2026-09-24-at-16.29.12.jpeg",
+  ],
+  indoorStadium: [
+    "/projects/indoor-stadium/WhatsApp-Image-2026-09-24-at-16.28.41-1-.jpeg",
+    "/projects/indoor-stadium/WhatsApp-Image-2026-09-24-at-16.28.41-2-.jpeg",
+    "/projects/indoor-stadium/WhatsApp-Image-2026-09-24-at-16.28.41.jpeg",
+    "/projects/indoor-stadium/WhatsApp-Image-2026-09-24-at-16.28.42.jpeg",
+  ]
+};
+
 export const companyData = {
   name: "Bright Ideas",
   tagline: "Transforming Ideas Into Powerful Brand Experiences.",
@@ -28,9 +90,9 @@ export const companyData = {
   description: "A full-service visual communication partner offering premium branding, advertising, signage, and printing solutions since 2011.",
   contact: {
     address: "Udit Nagar, Rourkela, Odisha 769012, India",
-    phone: "+91 98765 43210",
-    email: "hello@brightideas.co.in",
-    whatsapp: "919876543210",
+    phone: "+91 94399 05319 / +91 70087 65594",
+    email: "brightideasrkl@gmail.com",
+    whatsapp: "919439905319",
     hours: "Monday - Saturday: 9:30 AM - 7:30 PM"
   },
   social: {
@@ -158,6 +220,20 @@ export const portfolioData = [
     category: "Printing",
     image: siteImages.serviceFlex,
     description: "Large format exhibition graphics and promotional collateral."
+  },
+  {
+    id: "p7",
+    title: "ACP Board Projects",
+    category: "Signage",
+    image: projectImages.acpBoard[0],
+    description: "ACP signage, facade and retail branding work delivered by Bright Ideas."
+  },
+  {
+    id: "p8",
+    title: "Indoor Stadium Work",
+    category: "Office",
+    image: projectImages.indoorStadium[0],
+    description: "Indoor stadium branding and installation work by Bright Ideas."
   }
 ];
 

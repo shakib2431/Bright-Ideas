@@ -1,7 +1,7 @@
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Lightbox } from "@/components/ui/Lightbox";
-import { siteImages } from "@/data/content";
+import { siteImages, projectImages } from "@/data/content";
 import { useState } from "react";
 import { Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -26,6 +26,18 @@ const galleryImages = [
   { id: 6, src: siteImages.serviceVehicle, category: "Vehicle Branding", title: "Fleet Wrap" },
   { id: 7, src: siteImages.project1, category: "Signage", title: "Exterior Architectural Signage" },
   { id: 8, src: siteImages.project2, category: "Office Graphics", title: "Frosted Glass Manifestation" },
+  ...projectImages.acpBoard.slice(0, 20).map((src, index) => ({
+    id: 100 + index,
+    src,
+    category: "Signage",
+    title: `ACP Board Project ${index + 1}`
+  })),
+  ...projectImages.indoorStadium.map((src, index) => ({
+    id: 200 + index,
+    src,
+    category: "Office Graphics",
+    title: `Indoor Stadium Work ${index + 1}`
+  }))
 ];
 
 export default function Gallery() {
