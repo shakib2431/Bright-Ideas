@@ -52,80 +52,57 @@ export default function Home() {
       {/* =========================================================
           HERO SECTION — IMAGE ONLY SLIDESHOW
       ========================================================== */}
-      <section className="relative h-[calc(100vh-80px)] min-h-[600px] w-full overflow-hidden">
+      <section className="relative w-full overflow-hidden bg-black md:h-[calc(100vh-80px)] md:min-h-[600px]">
 
-        {/* HERO IMAGES */}
-        <div className="absolute inset-0">
-          {heroImages.map((image, index) => (
-            <div
-              key={image}
-              className={`
-                absolute
-                inset-0
-                transition-opacity
-                duration-[1200ms]
-                ease-in-out
-                ${
-                  activeHero === index
-                    ? "opacity-100"
-                    : "opacity-0"
-                }
-              `}
-            >
-              <img
-                src={image}
-                alt={`Bright Ideas hero ${index + 1}`}
-                className="h-full w-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
+  {/* Mobile-only spacer to maintain the image's natural aspect ratio */}
+  <img
+    src={heroImages[0]}
+    alt=""
+    aria-hidden="true"
+    className="block h-auto w-full invisible md:hidden"
+  />
 
-        {/* SLIDE INDICATORS */}
-        <div
-          className="
-            absolute
-            bottom-8
-            left-1/2
-            z-20
-            -translate-x-1/2
-            flex
-            items-center
-            gap-2
-            rounded-full
-            border
-            border-white/20
-            bg-black/30
-            px-4
-            py-2
-            backdrop-blur-md
-          "
-          role="tablist"
-          aria-label="Hero slides"
-        >
-          {heroImages.map((_, index) => (
-            <button
-              key={index}
-              type="button"
-              role="tab"
-              aria-label={`Go to hero slide ${index + 1}`}
-              aria-selected={activeHero === index}
-              onClick={() => setActiveHero(index)}
-              className={`
-                h-2
-                rounded-full
-                transition-all
-                duration-500
-                ${
-                  activeHero === index
-                    ? "w-8 bg-accent"
-                    : "w-2 bg-white/60 hover:bg-white"
-                }
-              `}
-            />
-          ))}
-        </div>
-      </section>
+  {/* Hero slideshow */}
+  <div className="absolute inset-0">
+    {heroImages.map((image, index) => (
+      <div
+        key={image}
+        className={`absolute inset-0 transition-opacity duration-[1200ms] ease-in-out ${
+          activeHero === index ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <img
+          src={image}
+          alt={`Bright Ideas hero ${index + 1}`}
+          className="h-full w-full object-contain object-center md:object-cover"
+        />
+      </div>
+    ))}
+  </div>
+
+  {/* Slide indicators */}
+  <div
+    className="absolute bottom-3 md:bottom-8 left-1/2 z-20 -translate-x-1/2 flex items-center gap-2 rounded-full border border-white/20 bg-black/30 px-4 py-2 backdrop-blur-md"
+    role="tablist"
+    aria-label="Hero slides"
+  >
+    {heroImages.map((_, index) => (
+      <button
+        key={index}
+        type="button"
+        role="tab"
+        aria-label={`Go to hero slide ${index + 1}`}
+        aria-selected={activeHero === index}
+        onClick={() => setActiveHero(index)}
+        className={`h-2 rounded-full transition-all duration-500 ${
+          activeHero === index
+            ? "w-8 bg-accent"
+            : "w-2 bg-white/60 hover:bg-white"
+        }`}
+      />
+    ))}
+  </div>
+</section>
 
       {/* =========================================================
           STATS STRIP
