@@ -89,7 +89,7 @@ export const companyData = {
   location: "Rourkela, Odisha, India",
   description: "A full-service visual communication partner offering premium branding, advertising, signage, and printing solutions since 2011.",
   contact: {
-    address: "Udit Nagar, Rourkela, Odisha 769012, India",
+    address: "Netaji Marg. Old Out Station Road, Rourkela -769001, Odisha",
     phone: "+91 94399 05319 / +91 70087 65594",
     email: "brightideasrkl@gmail.com",
     whatsapp: "919439905319",

@@ -52,7 +52,7 @@ export default function Home() {
       {/* =========================================================
           HERO SECTION — IMAGE ONLY SLIDESHOW
       ========================================================== */}
-      <section className="relative h-[calc(100vh-80px)] min-h-[600px] w-full overflow-hidden">
+      <section className="relative aspect-[4/3] w-full overflow-hidden bg-black md:aspect-auto md:h-[calc(100vh-80px)] md:min-h-[600px]">
 
         {/* HERO IMAGES */}
         <div className="absolute inset-0">
@@ -75,7 +75,7 @@ export default function Home() {
               <img
                 src={image}
                 alt={`Bright Ideas hero ${index + 1}`}
-                className="h-full w-full object-cover"
+               className="h-full w-full object-contain md:object-cover"
               />
             </div>
           ))}

@@ -417,6 +417,32 @@ export function Footer() {
               </li>
 
               <li>
+  <Link
+    href="/machinery"
+    className="
+      group
+      flex
+      items-center
+      gap-2
+      text-sm
+      text-slate-400
+      transition-colors
+      hover:text-accent
+    "
+  >
+    <ArrowRight
+      size={13}
+      className="
+        transition-transform
+        duration-200
+        group-hover:translate-x-1
+      "
+    />
+    Machinery
+  </Link>
+</li>
+
+              <li>
                 <Link
                   href="/faq"
                   className="

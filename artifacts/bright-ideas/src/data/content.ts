@@ -82,6 +82,34 @@ export const projectImages = {
   ]
 };
 
+export const recentWorkData = Array.from({ length: 27 }, (_, index) => {
+  const number = String(index + 1).padStart(2, "0");
+
+  return {
+    id: `recent-${number}`,
+    title: `Recent Work ${number}`,
+    category: "Signage",
+    image: `/projects/recent-work/work-${number}.jpg`,
+    description:
+      "Selected signage, branding, printing, and installation work by Bright Ideas.",
+  };
+});
+export const machineryData = [
+  {
+    id: "machinery-01",
+    title: "Machinery 01",
+    category: "Machinery",
+    image: "/projects/machinery/machinery-01.jpg",
+    description: "Machinery and equipment showcased by Bright Ideas.",
+  },
+  {
+    id: "machinery-02",
+    title: "Machinery 02",
+    category: "Machinery",
+    image: "/projects/machinery/machinery-02.jpg",
+    description: "Machinery and equipment showcased by Bright Ideas.",
+  },
+];
 export const companyData = {
   name: "Bright Ideas",
   tagline: "Transforming Ideas Into Powerful Brand Experiences.",
@@ -89,7 +117,7 @@ export const companyData = {
   location: "Rourkela, Odisha, India",
   description: "A full-service visual communication partner offering premium branding, advertising, signage, and printing solutions since 2011.",
   contact: {
-    address: "Udit Nagar, Rourkela, Odisha 769012, India",
+    address: "Netaji Marg. Old Out Station Road, Rourkela -769001, Odisha",
     phone: "+91 94399 05319 / +91 70087 65594",
     email: "brightideasrkl@gmail.com",
     whatsapp: "919439905319",
@@ -179,6 +207,8 @@ export const servicesData = [
 ];
 
 export const portfolioData = [
+  ...recentWorkData,
+
   {
     id: "p1",
     title: "Nexus Tech IT Park",
