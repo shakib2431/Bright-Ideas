@@ -52,7 +52,7 @@ export default function Home() {
  {/* =========================================================
           HERO SECTION — IMAGE ONLY SLIDESHOW
       ========================================================== */}
-      <section className="relative aspect-[1672/941] w-full overflow-hidden bg-black md:aspect-auto md:h-[calc(100vh-80px)] md:min-h-[600px]">
+      <section className="relative aspect-video w-full overflow-hidden bg-black md:aspect-auto md:h-[calc(100vh-80px)] md:min-h-[600px]">
 
         {/* HERO IMAGES */}
         <div className="absolute inset-0">
