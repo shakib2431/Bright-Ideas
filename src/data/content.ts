@@ -82,6 +82,39 @@ export const projectImages = {
   ]
 };
 
+export const machineryData = [
+  {
+    id: "machinery-01",
+    title: "Large Format UV Printing Machine",
+    image: "/projects/machinery/machinery-01.jpg",
+  },
+  {
+    id: "machinery-02",
+    title: "Large Format Printing Machine",
+    image: "/projects/machinery/machinery-02.jpg",
+  },
+  {
+    id: "machinery-03",
+    title: "CNC Cutting & Routing Machine",
+    image: "/projects/machinery/machinery-03.jpg",
+  },
+  {
+    id: "machinery-04",
+    title: "CNC Engraving & Cutting Machine",
+    image: "/projects/machinery/machinery-04.jpg",
+  },
+  {
+    id: "machinery-05",
+    title: "Digital Production Printing Machine",
+    image: "/projects/machinery/machinery-05.jpg",
+  },
+  {
+    id: "machinery-06",
+    title: "Laser Cutting & Engraving Machine",
+    image: "/projects/machinery/machinery-06.jpg",
+  },
+];
+
 export const companyData = {
   name: "Bright Ideas",
   tagline: "Transforming Ideas Into Powerful Brand Experiences.",
@@ -284,3 +317,4 @@ export const faqs = [
     answer: "Yes, MOQs vary depending on the product type and level of customization. Please contact our sales team with your specific requirements for a detailed quote."
   }
 ];
+

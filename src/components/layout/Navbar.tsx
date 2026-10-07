@@ -11,6 +11,7 @@ const navLinks = [
   { name: "Services", path: "/services" },
   { name: "Portfolio", path: "/portfolio" },
   { name: "Gallery", path: "/gallery" },
+  { name: "Machinery", path: "/machinery" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -502,3 +503,4 @@ export function Navbar() {
     </>
   );
 }
+

@@ -6,7 +6,8 @@ import Home from '@/pages/Home';
 import About from '@/pages/About';
 import Services from '@/pages/Services';
 import Portfolio from '@/pages/Portfolio';
-import Gallery from '@/pages/Gallery'; 
+import Gallery from '@/pages/Gallery';
+import Machinery from '@/pages/Machinery'; 
 import Contact from '@/pages/Contact';
 import Clients from '@/pages/Clients';
 import Testimonials from '@/pages/Testimonials';
@@ -50,6 +51,7 @@ function Router() {
         <Route path="/services" component={Services} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/gallery" component={Gallery} />
+        <Route path="/machinery" component={Machinery} />
         <Route path="/contact" component={Contact} />
         <Route path="/clients" component={Clients} />
         <Route path="/testimonials" component={Testimonials} />
